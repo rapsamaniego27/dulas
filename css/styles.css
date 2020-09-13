@@ -21,3 +21,21 @@
   align-items: center;
   justify-content: space-around;
 }
+
+
+
+/* Greetings */
+
+.greetings-container{
+  max-width: 400px;
+  background: #909090;
+  margin: 0 auto;
+}
+
+.greetings-controls{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:100%;
+  margin-top:20px;
+}

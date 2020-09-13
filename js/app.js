@@ -9,3 +9,15 @@ const slider = new Dulas({
 
  autoplay: false
 });
+
+
+const slider2 = new Dulas({
+ sliderEl: document.querySelector('.greetings-row'),
+
+ controls: {
+  nextEl: document.querySelector('#greetNext'),
+  prevEl: document.querySelector('#greetPrev')
+ },
+
+ autoplay: true
+});
