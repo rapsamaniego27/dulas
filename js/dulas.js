@@ -1,6 +1,8 @@
 class Dulas{
  constructor({sliderEl, controls, autoplay}){
+   /* Verification */
    if(sliderEl instanceof Element){
+     /* Variables */
      this.sliderEl = sliderEl;
      this.slideTrack = this.sliderEl.children[0];
      this.slides = Array.from(this.slideTrack.children);
