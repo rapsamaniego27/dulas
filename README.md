@@ -6,6 +6,7 @@
 
 This library is heavily inspired by Kevin Powell's style of arranging the slides, Dev Ed's style of making it an infinite slider and I threw in my own custom made functions like `gotoSlide(i)`. 
 
+[Demo here](https://rapsamaniego27.github.io/dulas/)
 
 ## Getting Started
 
