@@ -21,6 +21,17 @@ The **container** doesn't get read by the library but it is important for it to 
 
 The **row** and **track** classes are vital as the library looks for these elements and later on the **slides** inside it, then loops it through.
 
+### Installation
+It's not on NPM yet, but you can install the css and js files from the repo source. 
+```HTML
+<!-- CSS installed on the head tags -->
+<link rel="stylesheet" href="https://github.com/rapsamaniego27/dulas/blob/master/css/dulas.css">
+
+
+<!-- Javascript installed in the bottom -->
+<script src="https://raw.githubusercontent.com/rapsamaniego27/dulas/master/js/dulas.js" defer></script>
+```
+
 
 ### Setting up the HTML
 
