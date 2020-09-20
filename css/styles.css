@@ -1,8 +1,9 @@
 
 /* Custom Slides */
 .slide-container{
-  max-width: 1366px;
+  max-width: 800px;
   margin: 0 auto;
+  overflow:hidden;
 }
 
 
@@ -30,6 +31,7 @@
   max-width: 400px;
   background: #909090;
   margin: 0 auto;
+  overflow:hidden;
 }
 
 .greetings-controls{
@@ -38,4 +40,23 @@
   justify-content: space-around;
   width:100%;
   margin-top:20px;
+}
+
+/* Card */
+
+.card-container{
+  max-width: calc(300px * 2);
+  background: #909090;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.card img{
+  width: 100%;
+  object-fit: cover;
+  height:400px;
+}
+
+.card-row{
+  width: 50% !important;
 }

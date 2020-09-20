@@ -21,3 +21,15 @@ const slider2 = new Dulas({
 
  autoplay: true
 });
+
+const slider3 = new Dulas({
+ sliderEl: document.querySelector('.card-row'),
+
+ controls: {
+  nextEl: document.querySelector('#cardNext'),
+  prevEl: document.querySelector('#cardPrev')
+ },
+
+ autoplay: false,
+ slidesToScroll:2
+});

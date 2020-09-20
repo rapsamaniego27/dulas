@@ -13,10 +13,37 @@ This library is heavily inspired by Kevin Powell's style of arranging the slides
 The **container** doesn't get read by the library but it is important for it to exist so that you may set its main Width and Height in the CSS. Example CSS below.
 
 ```CSS
-/* Custom Slides */
+/* 1 Slides to show */
 .slide-container{
   max-width: 1366px;
   margin: 0 auto;
+  overflow:hidden;
+}
+```
+
+```CSS
+/* 2 slides to show */
+.slide-container{
+  max-width: calc(300px * 2);
+  margin: 0 auto;
+  overflow:hidden;
+}
+
+.slide-row{
+  width: 50% !important;
+}
+```
+
+```CSS
+/* 3 slides to show */
+.slide-container{
+  max-width: calc(300px * 3);
+  margin: 0 auto;
+  overflow:hidden;
+}
+
+.slide-row{
+  width: 33.33% !important;
 }
 ```
 
@@ -85,7 +112,10 @@ const slider = new Dulas({
  },
 
  /* You can set this to true for auto-sliding */
- autoplay: false
+ autoplay: false,
+ 
+ /* Optional */
+ slidesToScroll: 1
 });
 
 ```
@@ -315,7 +345,6 @@ The width of this is a 100% of the **container** e element that you constructed.
 .dulas-row{
   width:100%;
   display: block;
-  overflow: hidden;
   position: relative;
 }
 ```
